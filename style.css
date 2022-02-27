@@ -1,5 +1,8 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom:100px;
+}
+.navbar{
+    margin-top: 10px;
 }
 .buy-now-button{
     color: white;

@@ -13,31 +13,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
                 <img src="hot-gadgets/logo.png" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#smartphone">Smartphone</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#laptop">Laptop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#categories">Categories</a>
+                  </li>        
+                </ul>
+              </div>
             </div>
         </nav>
     </div>
@@ -52,7 +47,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" id="carousel">
                 <div class="carousel-item active">
                     <div class="row align-items-center">
                         <div class="col-md-5">
@@ -113,7 +108,7 @@
             </button>
         </div>
     </div>
-    <div class="container smartphone">
+    <div class="container smartphone" id="smartphone">
         <h3>Smartphone</h3>
         <div class="row  row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -157,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="container laptop">
+    <div class="container laptop" id="laptop">
         <h3>Laptop</h3>
         <div class="row  row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -202,7 +197,7 @@
         </div>
     </div>
 
-    <div class="container categories">
+    <div class="container categories" id="categories">
         <h3>Categories</h3>
        <div class="row align-items-center">
         <div class="col-md-3">
