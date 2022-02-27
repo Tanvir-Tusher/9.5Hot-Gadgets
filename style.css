@@ -1,0 +1,17 @@
+.container{
+    margin-bottom: 100px;
+}
+.buy-now-button{
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+.card-footer{
+    border-top: none;
+}
+.card{
+    box-shadow: 5px 5x 10px lightgray;
+    border-radius: 15px;
+}
